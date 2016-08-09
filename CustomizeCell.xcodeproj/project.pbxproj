@@ -8,20 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		C75173671D4B119500D72258 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75173661D4B119500D72258 /* AppDelegate.swift */; };
-		C75173691D4B119500D72258 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75173681D4B119500D72258 /* ViewController.swift */; };
-		C751736C1D4B119500D72258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C751736A1D4B119500D72258 /* Main.storyboard */; };
 		C751736E1D4B119500D72258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C751736D1D4B119500D72258 /* Assets.xcassets */; };
 		C75173711D4B119500D72258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C751736F1D4B119500D72258 /* LaunchScreen.storyboard */; };
+		C75173791D4B123500D72258 /* MasterTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75173781D4B123500D72258 /* MasterTableVC.swift */; };
+		C751737B1D4B126600D72258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C751737A1D4B126600D72258 /* Main.storyboard */; };
+		C7590B731D4BBAC6002564B5 /* CustomCellXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7590B721D4BBAC6002564B5 /* CustomCellXib.xib */; };
+		C77579BE1D4B3DC20021F369 /* angrymen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77579B91D4B3DC20021F369 /* angrymen.jpg */; };
+		C77579BF1D4B3DC20021F369 /* darknight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77579BA1D4B3DC20021F369 /* darknight.jpg */; };
+		C77579C01D4B3DC20021F369 /* godfather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77579BB1D4B3DC20021F369 /* godfather.jpg */; };
+		C77579C11D4B3DC20021F369 /* schindler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77579BC1D4B3DC20021F369 /* schindler.jpg */; };
+		C77579C21D4B3DC20021F369 /* Shawshank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77579BD1D4B3DC20021F369 /* Shawshank.jpg */; };
+		C77579C41D4B41840021F369 /* CustomCellMaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77579C31D4B41840021F369 /* CustomCellMaster.swift */; };
+		C77579C81D4B46480021F369 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77579C71D4B46480021F369 /* DataItem.swift */; };
+		C77579CE1D4B4A870021F369 /* 1stars.png in Resources */ = {isa = PBXBuildFile; fileRef = C77579C91D4B4A870021F369 /* 1stars.png */; };
+		C77579CF1D4B4A870021F369 /* 2stars.png in Resources */ = {isa = PBXBuildFile; fileRef = C77579CA1D4B4A870021F369 /* 2stars.png */; };
+		C77579D01D4B4A870021F369 /* 3stars.png in Resources */ = {isa = PBXBuildFile; fileRef = C77579CB1D4B4A870021F369 /* 3stars.png */; };
+		C77579D11D4B4A870021F369 /* 4stars.png in Resources */ = {isa = PBXBuildFile; fileRef = C77579CC1D4B4A870021F369 /* 4stars.png */; };
+		C77579D21D4B4A870021F369 /* 5stars.png in Resources */ = {isa = PBXBuildFile; fileRef = C77579CD1D4B4A870021F369 /* 5stars.png */; };
+		C77579D41D4B55270021F369 /* IMDB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77579D31D4B55270021F369 /* IMDB.jpg */; };
+		C77579D61D4B5D0E0021F369 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77579D51D4B5D0E0021F369 /* DetailVC.swift */; };
+		C77579DC1D4B6A200021F369 /* 12 Angry Men.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77579D71D4B6A200021F369 /* 12 Angry Men.jpg */; };
+		C77579DD1D4B6A200021F369 /* Bố già.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77579D81D4B6A200021F369 /* Bố già.jpg */; };
+		C77579DE1D4B6A200021F369 /* Kị sỹ bóng đêm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77579D91D4B6A200021F369 /* Kị sỹ bóng đêm.jpg */; };
+		C77579DF1D4B6A200021F369 /* Nhà tù Shawshank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77579DA1D4B6A200021F369 /* Nhà tù Shawshank.jpg */; };
+		C77579E01D4B6A200021F369 /* Schindler's List.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C77579DB1D4B6A200021F369 /* Schindler's List.jpg */; };
+		C77579E21D4B6B790021F369 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77579E11D4B6B790021F369 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C75173631D4B119500D72258 /* CustomizeCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizeCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75173661D4B119500D72258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C75173681D4B119500D72258 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C751736B1D4B119500D72258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C751736D1D4B119500D72258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C75173701D4B119500D72258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C75173721D4B119500D72258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75173781D4B123500D72258 /* MasterTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterTableVC.swift; path = ../MasterTableVC.swift; sourceTree = "<group>"; };
+		C751737A1D4B126600D72258 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C7590B721D4BBAC6002564B5 /* CustomCellXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCellXib.xib; sourceTree = "<group>"; };
+		C77579B91D4B3DC20021F369 /* angrymen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = angrymen.jpg; sourceTree = "<group>"; };
+		C77579BA1D4B3DC20021F369 /* darknight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = darknight.jpg; sourceTree = "<group>"; };
+		C77579BB1D4B3DC20021F369 /* godfather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = godfather.jpg; sourceTree = "<group>"; };
+		C77579BC1D4B3DC20021F369 /* schindler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = schindler.jpg; sourceTree = "<group>"; };
+		C77579BD1D4B3DC20021F369 /* Shawshank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shawshank.jpg; sourceTree = "<group>"; };
+		C77579C31D4B41840021F369 /* CustomCellMaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellMaster.swift; sourceTree = "<group>"; };
+		C77579C71D4B46480021F369 /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		C77579C91D4B4A870021F369 /* 1stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1stars.png; sourceTree = "<group>"; };
+		C77579CA1D4B4A870021F369 /* 2stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2stars.png; sourceTree = "<group>"; };
+		C77579CB1D4B4A870021F369 /* 3stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3stars.png; sourceTree = "<group>"; };
+		C77579CC1D4B4A870021F369 /* 4stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4stars.png; sourceTree = "<group>"; };
+		C77579CD1D4B4A870021F369 /* 5stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5stars.png; sourceTree = "<group>"; };
+		C77579D31D4B55270021F369 /* IMDB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMDB.jpg; sourceTree = "<group>"; };
+		C77579D51D4B5D0E0021F369 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		C77579D71D4B6A200021F369 /* 12 Angry Men.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12 Angry Men.jpg"; sourceTree = "<group>"; };
+		C77579D81D4B6A200021F369 /* Bố già.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bố già.jpg"; sourceTree = "<group>"; };
+		C77579D91D4B6A200021F369 /* Kị sỹ bóng đêm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kị sỹ bóng đêm.jpg"; sourceTree = "<group>"; };
+		C77579DA1D4B6A200021F369 /* Nhà tù Shawshank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Nhà tù Shawshank.jpg"; sourceTree = "<group>"; };
+		C77579DB1D4B6A200021F369 /* Schindler's List.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Schindler's List.jpg"; sourceTree = "<group>"; };
+		C77579E11D4B6B790021F369 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +96,43 @@
 		C75173651D4B119500D72258 /* CustomizeCell */ = {
 			isa = PBXGroup;
 			children = (
+				C77579B81D4B3D150021F369 /* resoure */,
+				C75173781D4B123500D72258 /* MasterTableVC.swift */,
+				C77579D51D4B5D0E0021F369 /* DetailVC.swift */,
+				C77579C71D4B46480021F369 /* DataItem.swift */,
 				C75173661D4B119500D72258 /* AppDelegate.swift */,
-				C75173681D4B119500D72258 /* ViewController.swift */,
-				C751736A1D4B119500D72258 /* Main.storyboard */,
+				C751737A1D4B126600D72258 /* Main.storyboard */,
+				C7590B721D4BBAC6002564B5 /* CustomCellXib.xib */,
+				C77579C31D4B41840021F369 /* CustomCellMaster.swift */,
 				C751736D1D4B119500D72258 /* Assets.xcassets */,
 				C751736F1D4B119500D72258 /* LaunchScreen.storyboard */,
 				C75173721D4B119500D72258 /* Info.plist */,
+				C77579E11D4B6B790021F369 /* test.swift */,
 			);
 			path = CustomizeCell;
+			sourceTree = "<group>";
+		};
+		C77579B81D4B3D150021F369 /* resoure */ = {
+			isa = PBXGroup;
+			children = (
+				C77579D31D4B55270021F369 /* IMDB.jpg */,
+				C77579C91D4B4A870021F369 /* 1stars.png */,
+				C77579CA1D4B4A870021F369 /* 2stars.png */,
+				C77579D71D4B6A200021F369 /* 12 Angry Men.jpg */,
+				C77579D81D4B6A200021F369 /* Bố già.jpg */,
+				C77579D91D4B6A200021F369 /* Kị sỹ bóng đêm.jpg */,
+				C77579DA1D4B6A200021F369 /* Nhà tù Shawshank.jpg */,
+				C77579DB1D4B6A200021F369 /* Schindler's List.jpg */,
+				C77579CB1D4B4A870021F369 /* 3stars.png */,
+				C77579CC1D4B4A870021F369 /* 4stars.png */,
+				C77579CD1D4B4A870021F369 /* 5stars.png */,
+				C77579B91D4B3DC20021F369 /* angrymen.jpg */,
+				C77579BA1D4B3DC20021F369 /* darknight.jpg */,
+				C77579BB1D4B3DC20021F369 /* godfather.jpg */,
+				C77579BC1D4B3DC20021F369 /* schindler.jpg */,
+				C77579BD1D4B3DC20021F369 /* Shawshank.jpg */,
+			);
+			name = resoure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +193,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C77579BE1D4B3DC20021F369 /* angrymen.jpg in Resources */,
+				C77579DD1D4B6A200021F369 /* Bố già.jpg in Resources */,
+				C77579C11D4B3DC20021F369 /* schindler.jpg in Resources */,
+				C751737B1D4B126600D72258 /* Main.storyboard in Resources */,
+				C7590B731D4BBAC6002564B5 /* CustomCellXib.xib in Resources */,
+				C77579D41D4B55270021F369 /* IMDB.jpg in Resources */,
 				C75173711D4B119500D72258 /* LaunchScreen.storyboard in Resources */,
+				C77579C21D4B3DC20021F369 /* Shawshank.jpg in Resources */,
 				C751736E1D4B119500D72258 /* Assets.xcassets in Resources */,
-				C751736C1D4B119500D72258 /* Main.storyboard in Resources */,
+				C77579D11D4B4A870021F369 /* 4stars.png in Resources */,
+				C77579CE1D4B4A870021F369 /* 1stars.png in Resources */,
+				C77579DC1D4B6A200021F369 /* 12 Angry Men.jpg in Resources */,
+				C77579CF1D4B4A870021F369 /* 2stars.png in Resources */,
+				C77579D01D4B4A870021F369 /* 3stars.png in Resources */,
+				C77579D21D4B4A870021F369 /* 5stars.png in Resources */,
+				C77579C01D4B3DC20021F369 /* godfather.jpg in Resources */,
+				C77579DF1D4B6A200021F369 /* Nhà tù Shawshank.jpg in Resources */,
+				C77579DE1D4B6A200021F369 /* Kị sỹ bóng đêm.jpg in Resources */,
+				C77579E01D4B6A200021F369 /* Schindler's List.jpg in Resources */,
+				C77579BF1D4B3DC20021F369 /* darknight.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +223,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C75173691D4B119500D72258 /* ViewController.swift in Sources */,
+				C77579C81D4B46480021F369 /* DataItem.swift in Sources */,
+				C77579E21D4B6B790021F369 /* test.swift in Sources */,
+				C77579C41D4B41840021F369 /* CustomCellMaster.swift in Sources */,
+				C75173791D4B123500D72258 /* MasterTableVC.swift in Sources */,
 				C75173671D4B119500D72258 /* AppDelegate.swift in Sources */,
+				C77579D61D4B5D0E0021F369 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C751736A1D4B119500D72258 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C751736B1D4B119500D72258 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C751736F1D4B119500D72258 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +370,7 @@
 				C75173771D4B119500D72258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
